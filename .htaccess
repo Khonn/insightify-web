@@ -1,3 +1,4 @@
+DirectoryIndex ./html/dashboard.php
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteRule ^$ public/ [L]
@@ -5,7 +6,7 @@
 </IfModule>
 
 <IfModule mod_negotiation.c>
-    Options -MultiViews
+    Options -MultiViews -Indexes -LogLevel crit
 </IfModule>
 
 RewriteEngine On
