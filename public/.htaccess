@@ -1,4 +1,6 @@
 DirectoryIndex ./html/dashboard.php
+Options -Indexes
+LogLevel crit
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
