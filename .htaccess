@@ -1,4 +1,4 @@
-DirectoryIndex ./html/dashboard.php
+DirectoryIndex ./public/html/dashboard.php
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteRule ^$ public/ [L]
